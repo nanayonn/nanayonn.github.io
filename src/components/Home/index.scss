@@ -1,6 +1,6 @@
 .home-page {
   .text-zone {
-    position: absolute;
+    position: fixed; //need to fix view on phone
     left: 50%;
     top: 30%;
     transform: translate(-50%);
