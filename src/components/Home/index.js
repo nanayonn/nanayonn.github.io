@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
 import { useEffect, useState } from "react";
-import Logo from "../../assets/images/Heiseliuding.jpg";
+import Waterloo from '../../assets/images/Waterloo.png';
+
 const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
   const nameArray = ["H", "a", "n", "p", "e", "n", "g"];
@@ -35,6 +36,10 @@ const Home = () => {
           CONTACT ME
         </Link>
       </div>
+      <div className='logo-container'>
+                <img className='solid-logo' src={Waterloo} alt="W"/>
+                
+        </div>
     </div>
   );
 };

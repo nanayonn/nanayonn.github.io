@@ -1,6 +1,6 @@
 .home-page {
   .text-zone {
-    position: fixed; //need to fix view on phone
+    position: absolute; //need to fix view on phone
     left: 50%;
     top: 30%;
     transform: translate(-50%);
@@ -37,7 +37,7 @@
   }
 }
 h2 {
-  color: #8d8d8d;
+  color: #ffffff;
   margin-top: 20px;
   font-weight: 400;
   font-size: 11px;
@@ -62,4 +62,33 @@ h2 {
     background-color: #ffd700;
     color: #333;
   }
+}
+.logo-container {
+  padding: 10px 19px;
+
+  width:400px;
+  height: 100px;
+  display: block;
+  position:absolute;
+  top: 70%;
+  right:auto;
+  bottom: 0;
+  left: 20%;
+  margin:auto;
+  .solid-logo{
+    
+      
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: auto;
+      margin-left: -60px;
+      width: 100%;
+      animation: fadeIn 1s 2.3s backwards;
+     
+      
+  }
+
+
+
 }
