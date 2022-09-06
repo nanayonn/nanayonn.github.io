@@ -48,7 +48,7 @@ return(
                     <FontAwesomeIcon icon={faReact} color="#DD0031" />
                 </div>
                 <div className='face4'>
-                    <FontAwesomeIcon icon={faCss3} color="#DD0031" />
+                    <FontAwesomeIcon icon={faJsSquare} color="#DD0031" />
                 </div>
                 <div className='face5'>
                     <FontAwesomeIcon icon={faJsSquare} color="#DD0031" />
