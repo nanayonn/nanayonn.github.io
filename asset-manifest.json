@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.64adbb78.css",
-    "main.js": "/static/js/main.aff49034.js",
+    "main.css": "/static/css/main.801e3ae4.css",
+    "main.js": "/static/js/main.76de32e5.js",
     "static/js/787.3cf2a530.chunk.js": "/static/js/787.3cf2a530.chunk.js",
     "static/media/Waterloo.png": "/static/media/Waterloo.147059ebad60bac03f33.png",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -10,12 +10,12 @@
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.64adbb78.css.map": "/static/css/main.64adbb78.css.map",
-    "main.aff49034.js.map": "/static/js/main.aff49034.js.map",
+    "main.801e3ae4.css.map": "/static/css/main.801e3ae4.css.map",
+    "main.76de32e5.js.map": "/static/js/main.76de32e5.js.map",
     "787.3cf2a530.chunk.js.map": "/static/js/787.3cf2a530.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64adbb78.css",
-    "static/js/main.aff49034.js"
+    "static/css/main.801e3ae4.css",
+    "static/js/main.76de32e5.js"
   ]
 }
