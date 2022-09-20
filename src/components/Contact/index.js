@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import emailJs from '@emailjs/browser'
+import emailjs from '@emailjs/browser'
 const Contact =()=>{
     const [letterClass, setLetterClass] = useState("text-animate");
     const refForm =useRef()
@@ -13,7 +13,7 @@ const Contact =()=>{
      }, [])
      const sendEmail =(e)=>{
         e.preventDefault()
-        emailJs.sendForm('service_swgt8xc', 'template_p1m5h3r', refForm.current, 'vTFWoNqGUamU_Caqd')
+        emailjs.sendForm('service_swgt8xc', 'template_q9jp7zb', refForm.current, 'vTFWoNqGUamU_Caqd')
         .then(
                 ()=>{
                     alert('Message sent!')
@@ -42,8 +42,8 @@ const Contact =()=>{
                         />
                 </h1>
                 <p>
-                    I am curently looking for Winter Coop in 2022, espiecally for Software Engineer intern and QA testing intern. 
-                    Please do not hesitate to contact me uisng the form below!
+                    I am curently looking for a 4 month Winter Coop in 2022, I am interested to in Software Engineer intern and QA Testing intern. 
+                    Please do not hesitate to contact me using the form below!
 
                 </p>
                 <div className='contact-form'>
@@ -72,7 +72,7 @@ const Contact =()=>{
 
                             </li>
                             <li>
-                                <input type="submit" className='flat-button' value="SEND" />
+                                <input type="submit" className='flat_button' value="SEND" />
 
                             </li>
                         </ul>

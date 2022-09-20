@@ -14,7 +14,7 @@
     font-family: "Coolvetica";
     font-weight: 400;
     &::before {
-      content: "<h1>";
+      
       font-family: "La Belle Aurore";
       color: aquamarine;
       font-size: 18px;
@@ -24,7 +24,7 @@
       opacity: 0.6s;
     }
     &::after {
-      content: "<h1/>";
+      
       font-family: "La Belle Aurore";
       color: aquamarine;
       font-size: 18px;
@@ -47,6 +47,7 @@ h2 {
 }
 .flat-button {
   color: #ffd700;
+  position: absolute;
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 4px;
