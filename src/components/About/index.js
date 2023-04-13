@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngular, faCss3, faCuttlefish, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
 import { faHryvnia } from '@fortawesome/free-solid-svg-icons';
 import {Loader} from 'react-loaders';
+import { Button} from 'react-bootstrap';
+import ExampleDoc from '../../assets/images/Waterloo.png'
 const About= () =>{
     
     const [letterClass, setLetterClass] = useState("text-animate");
@@ -25,16 +27,27 @@ return(
                         idx={15}
                         />
             </h1>
-            <p>I'm a student at University of Waterloo studying Computer Engineering looking for a tech coop role in
-                with the opportunity to work on diverse projects and learn from other talents. 
+            <p>My name is Han and I am currently a student at the University of Waterloo studying Computer Engineering.
+                 I am currently seeking a Software Development Engineer (SDE) co-op role that will allow me to work on diverse projects and learn from other talented professionals.
             </p>
-            <p> I'm dilligent, able to learn new skills fast, and eager to learn
+            <p> Throughout my academic journey, I have developed a passion for programming and have become proficient in several programming languages such as C++, Java and Javascript. 
+                I have also acquired a solid foundation in computer science principles and techniques, including algorithms, data structures, and software design.
 
             </p>
             <p>
-                You can find my resume down below, thank you!
+            What sets me apart from others is my diligence and my ability to learn new skills quickly. I have always been a fast learner, and I am not afraid to take on new challenges. I am constantly seeking new opportunities to grow and expand my knowledge base.
+In addition, I am eager to learn and collaborate with other professionals in the field.
+            </p>
+            <p>If you are looking for a motivated and talented co-op student with a passion for programming, then look no further. I would love the opportunity to contribute my skills and knowledge to your team. Thank you for taking the time to read my about me page, and I look forward to hearing from you soon! You can find my resume down below, thank you!
             </p>
 
+        
+           
+
+<a href={ExampleDoc} download="MyExampleDoc" target='_blank'>
+   <Button className='download-button'>My Example Doc</Button>
+</a>
+       
         </div>
     <div>
         <div className='stage-cube-cont'>
