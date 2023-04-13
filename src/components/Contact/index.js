@@ -42,7 +42,7 @@ const Contact =()=>{
                         />
                 </h1>
                 <p>
-                    I am curently looking for a 4 month Winter Coop in 2022, I am interested to in Software Engineer intern and QA Testing intern. 
+                    I am curently looking for a 4 month Coop in 2023, I am interested to in Software Engineer/Developer intern role.
                     Please do not hesitate to contact me using the form below!
 
                 </p>
