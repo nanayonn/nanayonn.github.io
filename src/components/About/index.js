@@ -6,7 +6,7 @@ import { faAngular, faCss3, faCuttlefish, faHtml5, faJsSquare, faReact } from '@
 import { faHryvnia } from '@fortawesome/free-solid-svg-icons';
 import {Loader} from 'react-loaders';
 import { Button} from 'react-bootstrap';
-import ExampleDoc from '../../assets/images/Waterloo.png'
+import ExampleDoc from '../../assets/images/software resume.pdf'
 const About= () =>{
     
     const [letterClass, setLetterClass] = useState("text-animate");
@@ -45,7 +45,7 @@ In addition, I am eager to learn and collaborate with other professionals in the
            
 
 <a href={ExampleDoc} download="MyExampleDoc" target='_blank'>
-   <Button className='download-button'>My Example Doc</Button>
+   <Button className='download-button'>Resume</Button>
 </a>
        
         </div>
